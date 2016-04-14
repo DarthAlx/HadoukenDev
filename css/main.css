@@ -1,0 +1,28 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+
+}
+/*Navbar*/
+.navbar-brand img{
+  max-width: 300px;
+}
+.navbar-brand {
+    padding: 0px 15px;
+}
+.navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
+    padding: 25px;
+}.navbar {
+    margin-bottom: 0px; 
+  }
+@media (max-width: 768px) {
+.navbar-brand img{
+  max-width: 170px;
+}
+.navbar-brand {
+    padding: 15px 15px;
+}
+}
