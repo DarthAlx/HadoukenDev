@@ -1,3 +1,4 @@
+<?php include '../revslider/embed.php'; ?>
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -15,6 +16,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+        <!-- jQuery REVOLUTION Slider  -->
+        <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+        <!-- REVOLUTION BANNER CSS SETTINGS -->
+        <link rel="stylesheet" type="text/css" href="css/extralayers.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+        <?php RevSliderEmbedder::headIncludes(); ?>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -37,79 +46,35 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="#">Inicio</a></li>
               <li><a href="#">Nosotros</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">Rediseños</a></li>
+                  <li><a href="#">Imágen Corporativa</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li><a href="#">Páginas Web</a></li>
+                  <li><a href="#">Tiendas Virtuales</a></li>
+                  <li><a href="#">Sitios Administrables</a></li>
+                  <li><a href="#">Sistemas Web</a></li>
                 </ul>
               </li>
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </li>
+              <li><a href="#">Contacto</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
 
       <!--inicia Slider-->
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="img/slider/1.png" class="img-responsive" alt="...">
-          </div>
-          <div class="item">
-            <img src="img/slider/2.png" class="img-responsive" alt="...">
-          </div>
-          <div class="item">
-            <img src="img/slider/3.png" class="img-responsive" alt="...">
-          </div>
-          <div class="item">
-            <img src="img/slider/4.png" class="img-responsive" alt="...">
-          </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Siguiente</span>
-        </a>
-      </div>
+      <?php RevSliderEmbedder::putRevSlider('principal'); ?>
       <!--termina Slider-->
       <div class="iconos">
         <div class="container">
           <div class="row text-center">
             <div class="icono col-md-3 col-sm-6">
               <i class="fa fa-mobile" aria-hidden="true"></i>
-              <h2>Diseño Responsivos.</h2>
+              <h2>Diseño Responsivo.</h2>
               <p>Lleva tu idea a cualquier dispositivo con solo diseñarlo una vez.</p>
             </div>
             <div class="icono col-md-3 col-sm-6">
@@ -139,11 +104,11 @@
             </div>
           </div>
           <div class="botones">
-            <a class="b1" href="#">Contactanos</a>
+            <a class="b1" href="#">Contáctanos</a>
           </div>
         </div>
       </div><!--coding-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>

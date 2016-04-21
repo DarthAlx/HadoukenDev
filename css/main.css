@@ -57,15 +57,18 @@ a:link{
 .iconos p{
   font-size: 15px
 }
+.iconos .container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 /*coding*/
 .coding{
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   background-image: url('../img/coding.gif');
   background-size:100% auto;
   background-repeat: no-repeat;
   text-align: center;
-
 }
 .coding .contenido{
   padding: 100px 0px;
@@ -96,9 +99,22 @@ a:link{
   background-color: #df7254;
   color: #fff;
 }
-.iconos .container{
-    margin-top: 40px;
-    margin-bottom: 40px;
+a.b1:visited{
+  color: #fff;
+}
+.contenido .row{
+  margin: 0px;
+}
+
+.bannercontainer {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+
+.banner{
+	width:100%;
+	position:relative;
 }
 
 
@@ -111,7 +127,7 @@ a:link{
     padding: 15px 15px;
 }
 .coding .contenido{
-  padding: 45px 0px;
+  padding: 1px 0px;
 }
 .coding h1{
   font-size: 25px;
@@ -121,8 +137,8 @@ a:link{
   font-size: 15px;
 }
 .iconos .container{
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 }
 /*tablet*/
@@ -131,4 +147,10 @@ a:link{
 
 /*pc*/
 @media (min-width: 992px) {
+  .coding h1{
+    font-size: 66px;
+  }
+  .coding p{
+    font-size: 20px;
+  }
 }
