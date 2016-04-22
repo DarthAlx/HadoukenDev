@@ -19,6 +19,7 @@ a:link{
 /*Navbar*/
 .navbar-brand img{
   max-width: 300px;
+  margin-top: -10px;
 }
 .navbar-brand {
     padding: 0px 15px;
@@ -105,18 +106,65 @@ a.b1:visited{
 .contenido .row{
   margin: 0px;
 }
-
-.bannercontainer {
-	width:100%;
-	position:relative;
-	padding:0;
+/*mailing*/
+.input-group[class*=col-] {
+    float: left;
 }
-
-.banner{
-	width:100%;
-	position:relative;
+.mailchimp{
+  padding: 80px 0;
+  width: 100%;
+  background-image: url('../img/mailing.gif');
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  color: #fff;
 }
+.titulo-news h2{
+  margin-bottom: 40px;
+}
+.input-group-btn .btn{
 
+  background: #3770A6;
+  color: #fff;
+}
+.correo-chimp{
+  background: #3770A6;
+  color: #fff;
+}
+.input-group-addon {
+  border: 0px;
+
+}
+/*footer*/
+footer{
+  background: #3770A6;
+  color: #fff !important;
+  padding: 5px 0;
+}
+footer .copyright p{
+  line-height: 55px;
+}
+footer .social{
+  font-size: 40px;
+  color: #fff;
+}
+.social a{
+  color: #fff;
+}
+/*back to tp*/
+#back_to_top a {
+    color: #ffffff;
+    background: #555555;
+}
+#back_to_top a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    outline: none;
+    border-radius: 50%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
 
 /*smartphone*/
 @media (max-width: 767px) {
@@ -124,7 +172,7 @@ a.b1:visited{
   max-width: 170px;
 }
 .navbar-brand {
-    padding: 15px 15px;
+  padding: 15px 15px;
 }
 .coding .contenido{
   padding: 1px 0px;
@@ -140,7 +188,34 @@ a.b1:visited{
     padding-right: 50px;
     padding-left: 50px;
 }
+.coding {
+    min-height: 220px;
+  }
+.col-xs-12 .btn{
+  margin-top: 15px;
+  background: #3770A6;
+  color: #fff;
 }
+.titulo-news h2{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.correo-chimp{
+  background: #3770A6;
+  color: #fff;
+}
+.input-group-addon {
+    font-size: 11px;
+  }
+.col-xs-10 .input-group-btn .btn {
+    padding: 9px 12px;
+    font-size: 11px;
+}
+.mailchimp{
+  padding: 25px 0;
+}
+}
+
 /*tablet*/
 @media (min-width: 768px) {
 }
