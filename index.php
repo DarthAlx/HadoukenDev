@@ -106,6 +106,82 @@
           </div>
         </div>
       </section><!--/coding-->
+      <section class="c2a">
+        <div class="container">
+          <p>
+            Deja de parecerte al resto y comienza a dejar tu marca en la Web.
+          </p>
+        </div>
+      </section><!--c2a-->
+      <section class="que-ofrecemos">
+        <div class="container">
+          <div class="row">
+            <div class="que-ico col-md-1 col-xs-2">
+                <i class="fa fa-diamond" aria-hidden="true"></i>
+            </div>
+            <div class="que col-md-3 col-xs-9">
+              <h3>Diseños para presumir</h3>
+                <p>
+                  Gracias a las nuevas tecnologías podemos ofrecerte caracteristicas realmente impresionates que te haran lucir estupendo y dar la mejor impresión.
+                </p>
+            </div>
+
+            <div class="que-ico col-md-1 col-xs-2">
+                <i class="fa fa-sliders" aria-hidden="true"></i>
+            </div>
+            <div class="que col-md-3 col-xs-9">
+              <h3>Personalización</h3>
+                <p>
+                  Claramente mejor que comprar una plantilla, te ofrecemos diseños unicos y totalmente personalizables que haran de tu web algo que nadie mas tiene.
+                </p>
+            </div>
+
+            <div class="que-ico col-md-1 col-xs-2">
+                <i class="fa fa-plug" aria-hidden="true"></i>
+            </div>
+            <div class="que col-md-3 col-xs-9">
+              <h3>Cargada de poder</h3>
+                <p>
+                  Con absolutamente todo lo que necesitas para triunfar, nosotros te brindamos las mejores opciones para hacer que tu negocio crezca.
+                </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="que-ico col-md-1 col-xs-2">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+            </div>
+            <div class="que col-md-3 col-xs-9">
+              <h3>Tutoriales en video</h3>
+                <p>
+                  Si necesitas recordar algo, no te preocupes nosotros nos encargamos de capacitarte y darte el soporte que necesitas para el manejo de tu web.
+                </p>
+            </div>
+
+            <div class="que-ico col-md-1 col-xs-2">
+                <i class="fa fa-code" aria-hidden="true"></i>
+            </div>
+            <div class="que col-md-3 col-xs-9">
+              <h3>Código limpio y moderno</h3>
+                <p>
+                  Usamos código entendible y bien estructurado en todos nuestros proyectos, además de las mejores y mas actuales herramientas de edición.
+                </p>
+            </div>
+
+            <div class="que-ico col-md-1 col-xs-2">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+            </div>
+            <div class="que col-md-3 col-xs-9">
+              <h3>Actualizaciones y soporte</h3>
+                <p>
+                  Si tu página requiere de actualizaciones y no deseas involucrarte en el código, no te preocupes, nosotros podemos ayudarte.
+                </p>
+            </div>
+          </div>
+
+
+        </div>
+      </section><!--que hacemos-->
       <!-- MailChimp -->
       <section class="mailchimp">
         <div class="container">

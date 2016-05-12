@@ -150,10 +150,11 @@ footer .social{
 .social a{
   color: #fff;
 }
+
 /*back to tp*/
 #back_to_top a {
-    color: #ffffff;
-    background: #555555;
+    color: #000000;
+    background: #fff;
 }
 #back_to_top a {
     width: 45px;
@@ -164,6 +165,41 @@ footer .social{
     border-radius: 50%;
     opacity: 0.5;
     filter: alpha(opacity=50);
+}
+/*c2a*/
+.c2a{
+  background: #64AECC;
+  text-align: center;
+  padding: 30px 0;
+}
+.c2a p{
+  margin: 0;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-style: oblique;
+}
+.que h3{
+    color: #444;
+    letter-spacing: -0.5px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans';
+    line-height: 34px;
+    font-size: 19px;
+}
+.que-ico i{
+  color: #64AECC;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.que,.que-ico{
+  padding: 25px 0;
+}
+.que-ofrecemos{
+  padding: 25px 0;
+}
+.que-ico{
+  text-align: center;
 }
 
 /*smartphone*/
@@ -214,10 +250,19 @@ footer .social{
 .mailchimp{
   padding: 25px 0;
 }
+.c2a p{
+  font-size: 20px;
+}
+
+
 }
 
 /*tablet*/
 @media (min-width: 768px) {
+  .c2a p{
+    font-size: 25px;
+  }
+
 }
 
 /*pc*/
@@ -228,4 +273,10 @@ footer .social{
   .coding p{
     font-size: 20px;
   }
+  .c2a p{
+    font-size: 30px;
+  }
+
+
+
 }
