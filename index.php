@@ -26,6 +26,7 @@
         <?php RevSliderEmbedder::headIncludes(); ?>
     </head>
     <body>
+      <div class="se-pre-con"></div>
         <!--[if lt IE 8]>
             <p class="browserupgrade">Estas usando un Navegador <strong>Muy desactualizado</strong>. Porfavor <a href="http://browsehappy.com/">actualiza tu navegador</a> para una mejor experiencia.</p>
         <![endif]-->
